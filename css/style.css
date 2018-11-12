@@ -1,0 +1,137 @@
+*{
+  
+  /*border: solid 1px; */
+  font-family:微軟正黑體;
+  position: relative;  
+}
+html, body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+}
+body{
+  background-color: #f9f590;
+  border-top: solid 20px #023692;
+  border-bottom: solid 20px #023692;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.mark{
+  font-size: 400px;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: rgba(0,0,0,0.05)
+}
+.namecard{
+  width: 350px; height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: #fff714;
+  color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  border: solid 1px rgba(0,0,0,0.15);
+  border-radius: 5px;
+  box-shadow: 0px 25px 15px -10px rgba(0,0,0,0.15);
+}
+.namecard h2{
+  font-size: 25px;
+  color: #424242; 
+}
+.namecard h2 span{
+  font-size: 17px;
+  font-weight: 500;
+  color: #424242; 
+}
+.namecard h5{
+  font-size: 10px;
+  color: #424242; 
+  letter-spacing: 6px;
+}
+.namecard p{
+  font-size: 12px;
+  letter-spacing: 6px;
+  line-height: 22px;
+  color: #393a3c; 
+}
+.circle{
+  width: 100px; height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  right: 100px;
+}
+.circle1{
+/*   right: 100px; */
+ /* right:270px;
+  top:-80px;
+  background-color: #797f71;*/
+}
+.page_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(85,85,800,0.7);
+  text-shadow: rgba(85, 85, 800, 0.5) 0px 0px 15px, rgba(85,85, 800, 0.5) 0px 0px 10px;
+}
+.dec_1,
+.dec_2,
+.dec_3{
+  position: absolute;
+  top: 40px;
+  right: 40%;
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
+  border: 7px solid #0023b3;
+  transform: rotate(45deg);
+}
+.dec_1{
+  right: 29%;  
+}
+.dec_2{
+  top: 30px;
+  right: 15%;
+  height: 65px;
+  width: 65px;
+  border: 7px solid #1478d7;
+  z-index: 10;
+}
+.dec_3{
+  right: 4%;
+}
+.trangle{
+  position: absolute;
+}
+.trangle1{
+  right:330px;
+  top:-50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 60px 30px 30px 0 ;
+  border-color: transparent transparent #ff5900 transparent;
+}
+.trangle2{
+  /*right:320px;
+  top:4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 18px 36px 18px  ;
+  border-color: transparent transparent #f88344 transparent;*/
+}
+.trangle3{
+  right:313px;
+  top:-50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 60px 0 30px 30px ;
+  border-color: transparent transparent #fa7f3d transparent;
+}
+
+
+
+
